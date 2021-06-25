@@ -1,0 +1,1415 @@
+@media (min-width:320px) and (max-width:575px){
+
+    .navbar-brand {
+        padding: 10px 10px 15px 10px;
+    }
+    
+    nav button i{
+        color: #000;
+        padding: 5px 10px;
+        background: #fff;
+        border-radius: 4px;
+    }
+
+    nav ul{
+        background: #222222;
+        text-align: center;
+        border-top: 1px solid transparent;
+    }
+
+    nav ul li a::after{
+        display: none;
+    }
+
+    nav ul li {
+        padding: 2px !important;
+    }
+
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+
+    .navbar-nav {
+        margin-bottom: 0 !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #banner_part{
+        height: 600px;
+    }
+
+    #banner_part .banner_main {
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 85%);
+    }
+
+    #banner_part .banner_main .banner_item{
+        height: auto;
+    }
+
+
+
+    #banner_part .banner_details {
+        top: 35%;
+    }
+
+    #banner_part .banner_details h2 {
+        font-size: 30px;
+    }
+
+    #banner_part .banner_details h3 {
+        font-size: 45px;
+    }
+
+    #banner_part .banner_details p{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+    }
+
+    #banner_part .slick-prev{
+        top: 54%;
+    }
+
+    #banner_part .slick-next{
+        top: 54%;
+    }
+
+    #banner_part .banner_details a{
+        font-size: 14px;
+        width: 115px;
+    }
+
+    .details p {
+        width: auto;
+    }
+
+    #about{
+        margin-bottom: 30px;
+    }
+
+    #about .about_main .about_circle{
+        display: none;
+    }
+
+    #about .about_main .about_top {
+        width: auto;
+    }
+
+    #about .about_main .about_top h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_top p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_top .shape{
+        display: none;
+    }
+
+    #about .about_main .about_top i{
+        display: none;
+    }
+
+    #about .about_main .about_left{
+        width: auto;
+        right: 0;
+        text-align: center;
+    }
+
+    #about .about_main .about_left h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_left p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_left .shape{
+        display: none;
+    }
+
+    #about .about_main .about_left i{
+        display: none;
+    }
+
+    #about .about_main .about_right{
+        width: auto;
+        left: 0;
+        text-align: center;
+    }
+
+    #about .about_main .about_right h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_right p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_right .shape{
+        display: none;
+    }
+
+    #about .about_main .about_right i{
+        display: none;
+    }
+
+    #about .about_main .about_bottom {
+        width: auto;
+    }
+
+    #about .about_main .about_bottom h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_bottom p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_bottom .shape{
+        display: none;
+    }
+
+    #about .about_main .about_bottom i{
+        display: none;
+    }
+
+    #portfolio{
+        clip-path: none;
+    }
+
+    #portfolio .details h2 {
+        margin-top: 30px;
+    }
+
+    #portfolio .portfolio_main {
+        padding-bottom: 20px;
+    }
+
+    #service .line {display: none;
+    }
+
+    #service .service_slider {
+        width: 93%;
+    }
+
+    #service .service_item{
+        flex-direction: column;
+    }
+
+   #service .service_item:nth-child(odd){
+        flex-direction: column;
+    }
+
+    #service .service_item .service_title {
+        width: 100%;
+        text-align: center;
+    }
+
+    #service .service_item:nth-child(odd) .service_title{
+        text-align: center;
+    }
+
+    #service .service_item .service_img{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #service .service_item .service_details .shape{
+        display: none;
+    }
+
+    #service .service_item .service_details{
+        width: 100%;
+    }
+
+    #service .service_item .service_details .shape_odd{
+        display: none;
+    }
+
+    #service .service_item .service_details p {
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    #testimonial {
+        clip-path: none;
+    }
+
+    #testimonial .texti_line{
+        display: none;
+    }
+
+    #testimonial .testi_box{
+        margin: 0;
+    }
+    
+
+    #testimonial .testi_img_slider .slick-center .round{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #testimonial .testi_img_slider .testi_img {
+        margin-top: 50px;
+    }
+
+    #testimonial .testi_img_slider .i_up {
+        top: 50%;
+        left: 7%;
+        transform: translateX(-50%) rotate(270deg);
+    }
+
+    #testimonial .testi_img_slider .i_down {
+        top: 50%;
+        left: 93%;
+        transform: translateX(-50%) rotate(270deg);
+    }
+
+    #testimonial .testi_overlay{
+        padding: 0;
+    }
+
+    #testimonial .testi_text_slider {
+        margin-top: 40px;
+    }
+
+    #testimonial .testi_text .content .shape{
+        display: none;
+    }
+
+    #testimonial .testi_text_slider .testi_text {
+        margin-bottom: 50px;
+    }
+
+    #testimonial .testi_text_slider .testi_text .content {
+        width: 100%;
+        padding: 25px 20px 15px 20px;
+        margin: 0;
+    }
+
+    #testimonial .testi_text p {
+        padding-bottom: 15px;
+    }
+
+    #pricing .prcing_box .p_box {
+        margin: 0;
+    }
+    #pricing .pricing_plan{
+        margin: 10px 0;
+    }
+
+    #pricing .prcing_box {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #counter{
+        clip-path: none;
+        margin-top: 50px;
+    }
+
+    #counter .angle {
+        transform: rotate(0deg);
+    }
+
+    #counter .counter_box {
+        margin: 0;
+        padding: 30px 0;
+    }
+
+    #counter .counter_overlay .count_item {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 10px 0;
+    }
+
+    #team .team_main .team_member {
+        margin: 10px 0;
+    }
+
+    #team .team_box {
+        margin: 0;
+    }
+
+    #team .team_main .team_member .team_img{
+        height: auto;
+    }
+
+    #sponsor{
+        clip-path: none;
+    }
+
+    #sponsor .angle {
+        transform: rotate(0deg);
+        padding: 30px 15px;
+    }
+
+    footer{
+        margin-top: 0;
+    }
+
+    footer .footer_logo {
+        transform: rotate(0deg);
+        padding-top: 40px;
+    }
+
+    footer .footer_logo img{
+        transform: rotate(0deg);
+    }
+
+    footer .footer_details .f_details {
+        margin-bottom: 40px;
+    }
+
+    footer .footer_details .f_details::after{
+        display: none;
+    }
+    /* --------------------------- */
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media (min-width:576px) and (max-width:767px){
+
+    .navbar-brand {
+        padding: 10px 10px 15px 10px;
+    }
+    
+    nav button i{
+        color: #000;
+        padding: 5px 10px;
+        background: #fff;
+        border-radius: 4px;
+    }
+
+    nav ul{
+        background: #222222;
+        text-align: center;
+        border-top: 1px solid transparent;
+    }
+
+    nav ul li a::after{
+        display: none;
+    }
+
+    nav ul li {
+        padding: 2px !important;
+    }
+
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+
+    .navbar-nav {
+        margin-bottom: 0 !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #banner_part{
+        height: 600px;
+    }
+
+    #banner_part .banner_main {
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 85%);
+    }
+
+    #banner_part .banner_main .banner_item{
+        height: auto;
+    }
+
+
+
+    #banner_part .banner_details {
+        top: 35%;
+    }
+
+    #banner_part .banner_details h2 {
+        font-size: 30px;
+    }
+
+    #banner_part .banner_details h3 {
+        font-size: 45px;
+    }
+
+    #banner_part .banner_details p{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+    }
+
+    #banner_part .slick-prev{
+        top: 54%;
+    }
+
+    #banner_part .slick-next{
+        top: 54%;
+    }
+
+    #banner_part .banner_details a{
+        font-size: 14px;
+        width: 115px;
+    }
+
+    .details p {
+        width: 83%;
+    }
+
+    #about{
+        margin-bottom: 30px;
+    }
+
+    #about .about_main .about_circle{
+        display: none;
+    }
+
+    #about .about_main .about_top {
+        width: auto;
+    }
+
+    #about .about_main .about_top h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_top p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_top .shape{
+        display: none;
+    }
+
+    #about .about_main .about_top i{
+        display: none;
+    }
+
+    #about .about_main .about_left{
+        width: auto;
+        right: 0;
+        text-align: center;
+    }
+
+    #about .about_main .about_left h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_left p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_left .shape{
+        display: none;
+    }
+
+    #about .about_main .about_left i{
+        display: none;
+    }
+
+    #about .about_main .about_right{
+        width: auto;
+        left: 0;
+        text-align: center;
+    }
+
+    #about .about_main .about_right h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_right p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_right .shape{
+        display: none;
+    }
+
+    #about .about_main .about_right i{
+        display: none;
+    }
+
+    #about .about_main .about_bottom {
+        width: auto;
+    }
+
+    #about .about_main .about_bottom h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_bottom p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_bottom .shape{
+        display: none;
+    }
+
+    #about .about_main .about_bottom i{
+        display: none;
+    }
+
+    #portfolio{
+        clip-path: none;
+    }
+
+    #portfolio .details h2 {
+        margin-top: 30px;
+    }
+
+    #portfolio .portfolio_main {
+        padding-bottom: 20px;
+    }
+
+    #service .line {display: none;
+    }
+
+    #service .service_slider {
+        width: 93%;
+    }
+
+    #service .service_item{
+        flex-direction: column;
+    }
+
+   #service .service_item:nth-child(odd){
+        flex-direction: column;
+    }
+
+    #service .service_item .service_title {
+        width: 100%;
+        text-align: center;
+    }
+
+    #service .service_item:nth-child(odd) .service_title{
+        text-align: center;
+    }
+
+    #service .service_item .service_img{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #service .service_item .service_details .shape{
+        display: none;
+    }
+
+    #service .service_item .service_details{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #service .service_item .service_details .shape_odd{
+        display: none;
+        margin-top: 20px;
+    }
+
+    #service .service_item .service_details p {
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    #service .service_slider .i_down{
+        bottom: -49px;
+    }
+
+    #service .service_item .service_title h2{
+        padding-bottom: 20px;
+    }
+
+    #testimonial {
+        clip-path: none;
+    }
+
+    #testimonial .texti_line{
+        display: none;
+    }
+
+    #testimonial .testi_box{
+        margin: 0;
+    }
+    
+
+    #testimonial .testi_img_slider .slick-center .round{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #testimonial .testi_img_slider .testi_img {
+        margin-top: 50px;
+    }
+
+    #testimonial .testi_img_slider .i_up {
+        top: 50%;
+        left: 0;
+        transform: translateX(-50%) rotate(270deg);
+    }
+
+    #testimonial .testi_img_slider .i_down {
+        top: 50%;
+        left: 100%;
+        transform: translateX(-50%) rotate(270deg);
+    }
+
+    #testimonial .testi_overlay{
+        padding: 0;
+    }
+
+    #testimonial .testi_text_slider {
+        margin-top: 40px;
+    }
+
+    #testimonial .line_box{
+        margin-top: 20px;
+    }
+
+    #testimonial .testi_text .content .shape {
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%) rotate(45deg);
+    }
+
+    #testimonial .testi_text_slider .testi_text {
+        margin-bottom: 50px;
+    }
+
+    #testimonial .testi_text_slider .testi_text .content {
+        width: 100%;
+        padding: 35px 37px 20px 30px;
+        margin: 28px 0 0 0;
+    }
+
+    #testimonial .testi_text p {
+        padding-bottom: 15px;
+    }
+
+    #pricing .prcing_box .p_box {
+        margin: 0;
+    }
+    #pricing .pricing_plan{
+        margin: 10px 0;
+    }
+
+    #pricing .prcing_box {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #counter{
+        clip-path: none;
+        margin-top: 50px;
+    }
+
+    #counter .angle {
+        transform: rotate(0deg);
+    }
+
+    #counter .counter_box {
+        margin: 0;
+        padding: 30px 0;
+    }
+
+    #counter .counter_overlay .count_item {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 10px 0;
+    }
+
+    #team .team_main .team_member {
+        margin: 10px 0;
+    }
+
+    #team .team_box {
+        margin: 0;
+    }
+
+    #team .team_main .team_member .team_img{
+        height: auto;
+    }
+
+    #sponsor{
+        clip-path: none;
+    }
+
+    #sponsor .angle {
+        transform: rotate(0deg);
+        padding: 30px 15px;
+    }
+
+    footer{
+        margin-top: 0;
+    }
+
+    footer .footer_logo {
+        transform: rotate(0deg);
+        padding-top: 40px;
+    }
+
+    footer .footer_logo img{
+        transform: rotate(0deg);
+    }
+
+    footer .footer_details .f_details {
+        margin-bottom: 40px;
+    }
+
+    footer .footer_details .f_details::after{
+        display: none;
+    }
+    /* --------------------------- */
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media (min-width:768px) and (max-width:991px){
+
+    .navbar-brand {
+        padding: 10px 10px 15px 10px;
+    }
+    
+    nav button i{
+        color: #000;
+        padding: 5px 10px;
+        background: #fff;
+        border-radius: 4px;
+    }
+
+    nav ul{
+        background: #222222;
+        text-align: center;
+        border-top: 1px solid transparent;
+    }
+
+    nav ul li a::after{
+        display: none;
+    }
+
+    nav ul li {
+        padding: 2px !important;
+    }
+
+    .navbar {
+        padding-bottom: 0 !important;
+    }
+
+    .navbar-nav {
+        margin-bottom: 0 !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #banner_part{
+        height: 600px;
+    }
+
+    #banner_part .banner_main {
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 85%);
+    }
+
+    #banner_part .banner_main .banner_item{
+        height: auto;
+    }
+
+    #banner_part .banner_details {
+        top: 35%;
+    }
+
+    #banner_part .banner_details h2 {
+        font-size: 30px;
+    }
+
+    #banner_part .banner_details h3 {
+        font-size: 45px;
+    }
+
+    #banner_part .banner_details p{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+    }
+
+    #banner_part .slick-prev{
+        top: 54%;
+    }
+
+    #banner_part .slick-next{
+        top: 54%;
+    }
+
+    #banner_part .banner_details a{
+        font-size: 14px;
+        width: 115px;
+    }
+
+    .details p {
+        width: 67%;
+    }
+
+    #about{
+        margin-bottom: 30px;
+    }
+
+    #about .about_main .about_circle{
+        display: none;
+    }
+
+    #about .about_main .about_top {
+        width: 75%;
+    }
+
+    #about .about_main .about_top h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_top p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_top .shape{
+        display: none;
+    }
+
+    #about .about_main .about_top i{
+        display: none;
+    }
+
+    #about .about_main .about_left{
+        width: 75%;
+        right: 0;
+        text-align: center;
+    }
+
+    #about .about_main .about_left h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_left p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_left .shape{
+        display: none;
+    }
+
+    #about .about_main .about_left i{
+        display: none;
+    }
+
+    #about .about_main .about_right{
+        width: 75%;
+        left: 0;
+        text-align: center;
+    }
+
+    #about .about_main .about_right h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_right p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_right .shape{
+        display: none;
+    }
+
+    #about .about_main .about_right i{
+        display: none;
+    }
+
+    #about .about_main .about_bottom {
+        width: 75%;
+    }
+
+    #about .about_main .about_bottom h3 {
+        padding: 30px 30px 20px 30px;
+    }
+
+    #about .about_main .about_bottom p {
+        padding: 0 30px 30px 30px;
+    }
+
+    #about .about_main .about_bottom .shape{
+        display: none;
+    }
+
+    #about .about_main .about_bottom i{
+        display: none;
+    }
+
+    #portfolio{
+        clip-path: none;
+    }
+
+    #portfolio .details h2 {
+        margin-top: 30px;
+    }
+
+    #portfolio .portfolio_main {
+        padding-bottom: 20px;
+    }
+
+    #service .line {display: none;
+    }
+
+    #service .service_slider {
+        width: 93%;
+    }
+
+    #service .service_item{
+        flex-direction: column;
+    }
+
+   #service .service_item:nth-child(odd){
+        flex-direction: column;
+    }
+
+    #service .service_item .service_title {
+        width: 100%;
+        text-align: center;
+    }
+
+    #service .service_item:nth-child(odd) .service_title{
+        text-align: center;
+    }
+
+    #service .service_item .service_img{
+        width: 100%;
+        margin: 20px 0 40px 0;
+    }
+
+    #service .service_item .service_details .shape{
+        display: none;
+    }
+
+    #service .service_item .service_details{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #service .service_item .service_details .shape_odd{
+        display: none;
+        margin-top: 20px;
+    }
+
+    #service .service_item .service_details p {
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    #service .service_slider .i_down{
+        bottom: -49px;
+    }
+
+    #service .service_item .service_title h2{
+        padding-bottom: 20px;
+    }
+
+    #testimonial {
+        clip-path: none;
+    }
+
+    #testimonial .texti_line{
+        display: none;
+    }
+
+    #testimonial .testi_box{
+        margin: 0;
+    }
+    
+
+    #testimonial .testi_img_slider .slick-center .round{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #testimonial .testi_img_slider .testi_img {
+        margin-top: 50px;
+    }
+
+    #testimonial .testi_img_slider .i_up {
+        top: 50%;
+        left: 0;
+        transform: translateX(-50%) rotate(270deg);
+    }
+
+    #testimonial .testi_img_slider .i_down {
+        top: 50%;
+        left: 100%;
+        transform: translateX(-50%) rotate(270deg);
+    }
+
+    #testimonial .testi_overlay{
+        padding: 0;
+    }
+
+    #testimonial .testi_text_slider {
+        margin-top: 40px;
+    }
+
+    #testimonial .line_box{
+        margin-top: 20px;
+    }
+
+    #testimonial .testi_text .content .shape {
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%) rotate(45deg);
+    }
+
+    #testimonial .testi_text_slider .testi_text {
+        margin-bottom: 50px;
+    }
+
+    #testimonial .testi_text_slider .testi_text .content {
+        width: 100%;
+        padding: 35px 37px 20px 30px;
+        margin: 28px 0 0 0;
+    }
+
+    #testimonial .testi_text p {
+        padding-bottom: 15px;
+    }
+
+    #pricing .prcing_box .p_box {
+        margin: 0;
+    }
+    #pricing .pricing_plan{
+        margin: 10px 0;
+    }
+
+    #pricing .prcing_box{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #pricing .plan_details {
+        padding-top: 35px;
+    }
+
+    #pricing .plan_details p {
+        font-size: 12px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+
+    #counter{
+        clip-path: none;
+        margin-top: 50px;
+    }
+
+    #counter .angle {
+        transform: rotate(0deg);
+    }
+
+    #counter .counter_box {
+        margin: 0;
+        padding: 30px 0;
+    }
+
+    #counter .counter_overlay .count_item {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 10px 0;
+    }
+
+    #counter .counter_overlay .count_item p {
+        font-size: 12px;
+    }
+
+    #team .team_main .team_member {
+        margin: 10px 0;
+    }
+
+    #team .team_box {
+        margin: 0;
+    }
+
+    #team .team_main .team_member .team_img{
+        height: auto;
+    }
+
+    #sponsor{
+        clip-path: none;
+    }
+
+    #sponsor .angle {
+        transform: rotate(0deg);
+        padding: 30px 15px;
+    }
+
+    footer{
+        margin-top: 0;
+    }
+
+    footer .footer_logo {
+        transform: rotate(0deg);
+        padding-top: 40px;
+    }
+
+    footer .footer_logo img{
+        transform: rotate(0deg);
+    }
+
+    footer .footer_details .f_details {
+        margin-bottom: 40px;
+    }
+
+    footer .footer_details .f_details::after{
+        display: none;
+    }
+    /* --------------------------- */
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media (min-width:991px) and (max-width:1199px){
+
+    nav ul li {
+        padding: 6px !important;
+    }
+
+    nav ul li a::after {
+        bottom: -21px;
+    }
+
+    #banner_part .banner_main {
+        clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 80%);
+    }
+
+    #banner_part .banner_details {
+        top: 63%;
+    }
+
+    #banner_part .slick-slide img {
+        width: auto;
+    }
+
+    #banner_part .banner_details {
+        top: 40%;
+    }
+
+    .details p {
+        width: 67%;
+    }
+
+    #about{
+        margin-top: -135px;
+    }
+
+    #about .about_main .about_circle {
+        width: 270px;
+        height: 270px;
+    }
+
+    #about .about_main .about_circle .about_img {
+        width: 240px;
+        height: 240px;
+    }
+
+    #about .about_main .about_top {
+        width: auto;
+    }
+
+    #about .about_main .about_top h3 {
+        padding: 20px 30px 20px 30px;
+    }
+
+    #about .about_main .about_top p {
+        padding: 0 15px 30px 15px;
+    }
+
+    #about .about_main .about_left {
+        width: auto;
+        right: 4px;
+    }
+
+    #about .about_main .about_left h3 {
+        padding: 20px 15px 20px 15px;
+    }
+
+    #about .about_main .about_left i {
+        right: -51px;
+    }
+
+    #about .about_main .about_right {
+        width: auto;
+        left: 4px;
+    }
+
+    #about .about_main .about_right h3 {
+        padding: 20px 15px 20px 15px;
+    }
+
+    #about .about_main .about_right i {
+        left: -51px;
+    }
+
+    #about .about_main .about_bottom {
+        width: auto;
+    }
+
+    #about .about_main .about_bottom h3 {
+        padding: 27px 30px 20px 30px;
+    }
+
+    #about .about_main .about_bottom p {
+        padding: 0 15px 30px 16px;
+    }
+
+    #portfolio{
+        clip-path: none;
+        margin-top: 50px;
+    }
+
+    #portfolio .details h2 {
+        margin-top: 30px;
+    }
+
+    #portfolio .portfolio_main {
+        padding-bottom: 20px;
+    }
+
+    #service .line {
+        height: 743px;
+    }
+
+    #service .service_item .service_details p {
+        padding: 20px 35px;
+    }
+
+    #testimonial{
+        clip-path: none;
+    }
+
+    #testimonial .testi_text_slider .testi_text .content {
+        width: auto;
+        padding: 25px 30px 20px 30px;
+        margin: 0 30px;
+    }
+
+    #testimonial .testi_img_slider .slick-center .round {
+        transform: scale(1.1);
+    }
+
+    #testimonial .testi_overlay {
+        padding-top: 55px;
+        padding-bottom: 85px;
+    }
+
+    #pricing .prcing_box .p_box {
+        margin: 0;
+    }
+    #pricing .pricing_plan{
+        margin: 10px 0;
+    }
+
+    #pricing .prcing_box {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    #testimonial .testi_img_slider .testi_img {
+        margin-top: 82px;
+    }
+
+    #pricing .plan_details {
+        padding-top: 35px;
+    }
+
+    #pricing .plan_details p {
+        font-size: 12px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+
+    #counter{
+        clip-path: none;
+        margin-top: 50px;
+    }
+
+    #counter .angle {
+        transform: rotate(0deg);
+    }
+
+    #counter .counter_box {
+        margin: 0;
+        padding: 30px 0;
+    }
+
+    #counter .counter_overlay .count_item {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 10px 0;
+    }
+
+    #counter .counter_overlay .count_item p {
+        font-size: 12px;
+    }
+
+    #team .team_main .team_member {
+        margin: 10px 0;
+    }
+
+    #team .team_box {
+        margin: 0;
+    }
+
+    #team .team_main .team_member .team_img{
+        height: auto;
+    }
+
+    #sponsor{
+        clip-path: none;
+    }
+
+    #sponsor .angle {
+        transform: rotate(0deg);
+        padding: 30px 15px;
+    }
+
+    #sponsor .slick-slide img {
+        width: 100%;
+    }
+
+    #sponsor .angle {
+        padding: 20px 15px;
+    }
+
+    #sponsor .sponsor_item img {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        transform: rotate(1deg);
+    }
+
+    footer{
+        margin-top: 0;
+    }
+
+    footer .footer_logo {
+        transform: rotate(0deg);
+        padding-top: 40px;
+    }
+
+    footer .footer_logo img{
+        transform: rotate(0deg);
+    }
+
+    footer .footer_details .f_details {
+        margin-bottom: 20px;
+    }
+    /* --------------------------- */
+}
